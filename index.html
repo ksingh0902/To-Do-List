@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.google.com/share?selection.family=Poppins:wght@500|Raleway:wght@800|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900">
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <h1>Add your Task here !!</h1>
+        <form action="#" id="todo-form">
+          <input type="text"  name="task-name" placeholder="e.g. Buy groceries"/>
+          <button type="submit">Add task</button>
+        </form>
+      </div>
+    </header>
+  
+    <section class="main-section">
+<div class="section-container">
+<ul class="section-list">
+    <li>
+       <span>Remaining</span>
+       <span class="remaining-task">0</span>
+    </li>
+    <li>
+        <span>Completed</span>
+        <span class="completed-task">0</span>
+     </li>
+     <li>
+        <span>Total</span>
+        <span class="total-task">0</span>
+     </li>
+</ul>
+
+<ul class="tasks-list">
+    <li>
+        <div>
+            <input type="checkbox" name="tasks" id="1">
+            <span>Task 1</span>
+        </div>
+        <button title="Remove Task" class="remove-task">
+            <a href="https://iconscout.com/icons/cross" class="text-underline font-size-sm" target="_blank"></a> <a href="https://iconscout.com/contributors/oviyan" class="text-underline font-size-sm" target="_blank"></a>
+        </button>
+    </li>
+    <li>
+        <div>
+            <input type="checkbox" name="tasks" id="1">
+            <span>Task 2</span>
+        </div>
+        <button title="Remove Task" class="remove-task">
+            <a href="https://iconscout.com/icons/cross" class="text-underline font-size-sm" target="_blank"></a> <a href="https://iconscout.com/contributors/oviyan" class="text-underline font-size-sm" target="_blank"></a>
+        </button>
+    </li>
+    <li>
+        <div>
+            <input type="checkbox" name="tasks" id="1">
+            <span>Task 3</span>
+        </div>
+        <button title="Remove Task" class="remove-task">
+            <a href="https://iconscout.com/icons/cross" class="text-underline font-size-sm" target="_blank"></a> <a href="https://iconscout.com/contributors/oviyan" class="text-underline font-size-sm" target="_blank"></a>
+        </button>
+    </li>
+</ul>
+
+
+
+</div>
+    </section>
+
+
+<script src="app.js"></script>
+</body>
+</html>
